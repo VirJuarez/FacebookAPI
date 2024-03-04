@@ -1,6 +1,8 @@
 # FacebookAPI
 
-Para comensar, ejecuta `npm install` para instalar las dependencias y `npm start` para levantar el proyecto. El servidor se levantará en el puerto 3000.
+Para comenzar, ejecuta `npm install` para instalar las dependencias y `npm start` para levantar el proyecto. El servidor se levantará en el puerto 3000.
+
+Para poder efectuar las llamadas, será necesario agregar un archivo .env con la variable "ACCESS_TOKEN". Este token debe ser el user Token de un usuario de facebook, eso permitirá hacer las llamadas que devolverán información sobre dicho usuario.
 
 ### Endpoint: `/facebook/info`
 
